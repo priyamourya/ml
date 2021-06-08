@@ -1,5 +1,5 @@
 Flask==1.1.1
-numpy==1.20.3
+numpy>=1.9.2
 urllib3==1.25.8
 googletrans==3.1.0a0
 transformers==3.1.0
