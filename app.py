@@ -12,7 +12,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from transformers import BartTokenizer, BartForConditionalGeneration, BartConfig
 import pickle
 
-test = pickle.load(open('sum.pkl', 'rb'))
+test = pickle.load(open('file.pkl', 'rb'))
 
 app = Flask(__name__)
 
